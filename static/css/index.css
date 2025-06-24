@@ -133,5 +133,34 @@ body {
   font-size: smaller;
 }
 
+.results-carousel {
+  overflow: hidden;
+  
+}
+
+.carousel-item-8 {
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr); 
+  grid-template-rows: repeat(1, auto); 
+  gap: 8px; 
+  padding: 50px; 
+  padding-top: 5px; 
+  padding-bottom: 70px; 
+  align-items: center; 
+  text-align: center; 
+}
+
+.gif-box {
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  }
+
 
 
